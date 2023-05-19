@@ -17,8 +17,8 @@ for (let i = 0; i < llaves.length; i ++){
      console.log(llave + ": " + pedro[llave]);
 }
 
-pedro.saluda = function saluda(){
-               console.log("Hola, me llamo " + pedro.nombre);
+pedro.saluda = function(){
+               console.log("Hola, me llamo " + this.nombre);
 }
 
 pedro.saluda();
